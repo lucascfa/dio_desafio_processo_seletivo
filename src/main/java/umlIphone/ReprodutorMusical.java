@@ -1,13 +1,7 @@
 package umlIphone;
 
 public interface ReprodutorMusical {
-    static void tocar(){
-
-    }
-    static void pausar(){
-
-    }
-    static void selecionarMusica(){
-
-    }
-    }
+    public void tocar();
+    public void pausar();
+    public void selecionarMusica();
+}

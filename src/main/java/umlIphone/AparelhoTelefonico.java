@@ -1,13 +1,7 @@
 package umlIphone;
 
 public interface AparelhoTelefonico {
-    static void ligar(){
-
-    }
-    static void atender () {
-
-    }
-    static void iniciarCorreioVoz(){
-
-    }
+    public void ligar();
+    public void atender ();
+    public void iniciarCorreioVoz();
 }
